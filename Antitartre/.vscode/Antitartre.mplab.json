@@ -14,7 +14,8 @@
                 }
             ],
             "fileSet": "default",
-            "toolchain": "default-XC8"
+            "toolchain": "default-XC8",
+            "userVariables": "default-uservariables"
         }
     ],
     "propertyGroups": [
@@ -22,6 +23,13 @@
             "name": "default-XC8",
             "type": "toolchain",
             "provider": "microchip.toolchains:xc8@2.50",
+            "properties": {
+                "XC8-config-global.wpo-lto": true
+            }
+        },
+        {
+            "name": "default-uservariables",
+            "type": "uservariables",
             "properties": {}
         }
     ],
