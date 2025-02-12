@@ -1,0 +1,6 @@
+{
+    "mplab.clangd.arguments": [
+        "--compile-commands-dir=./_build/Antitartre/default"
+    ],
+    "mplab.clangd.path": ""
+}
